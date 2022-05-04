@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict>
+		<key>0q6-1H-ujb</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>0q6-1H-ujb</string>
+				</array>
+				<key>message</key>
+				<string>NSTextField's height does not match its intrinsic content size, use "Size to Fit Content" to correct</string>
+				<key>type</key>
+				<string>IBIssueTypeIntrinsicSizeMismatch</string>
+				<key>type-value</key>
+				<integer>22</integer>
+			</dict>
+		</array>
+		<key>JCi-58-cqo</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>JCi-58-cqo</string>
+				</array>
+				<key>message</key>
+				<string>NSTextField's height does not match its intrinsic content size, use "Size to Fit Content" to correct</string>
+				<key>type</key>
+				<string>IBIssueTypeIntrinsicSizeMismatch</string>
+				<key>type-value</key>
+				<integer>22</integer>
+			</dict>
+		</array>
+		<key>ls8-VO-cxA</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>ls8-VO-cxA</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>5qg-pR-ORc</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>5qg-pR-ORc</string>
+				</array>
+				<key>message</key>
+				<string>“Product Added View Controller“ is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

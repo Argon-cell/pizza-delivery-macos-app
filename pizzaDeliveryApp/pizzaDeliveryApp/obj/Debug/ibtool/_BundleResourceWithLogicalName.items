@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/OHF-MV-CwB-view-SVX-ss-gPy.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/OHF-MV-CwB-view-SVX-ss-gPy.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/CountLessThan1.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/CountLessThan1.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/AddedProduct.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/AddedProduct.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/BasketTable.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/BasketTable.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/rVk-Oz-UmX-view-iva-Ff-xET.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/rVk-Oz-UmX-view-iva-Ff-xET.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/ONQ-Ai-MMd-view-Hcq-hc-t2v.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/ONQ-Ai-MMd-view-Hcq-hc-t2v.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/NSViewController-rVk-Oz-UmX.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSViewController-rVk-Oz-UmX.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/CountProduct.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/CountProduct.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/CatalogProducts.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/CatalogProducts.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/MainMenu.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/MainMenu.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/ZrH-cX-sNY-view-otL-EZ-zTi.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/ZrH-cX-sNY-view-otL-EZ-zTi.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/I5y-wy-NIU-view-FRv-Pk-xQY.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/I5y-wy-NIU-view-FRv-Pk-xQY.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/exU-65-Qx3-view-JYl-by-yTZ.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/exU-65-Qx3-view-JYl-by-yTZ.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/NSViewController-OHF-MV-CwB.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/NSViewController-OHF-MV-CwB.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/Payed.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/Payed.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/0Bp-M2-z0v-view-Kod-sI-moh.nib">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/0Bp-M2-z0v-view-Kod-sI-moh.nib</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/Debug/ibtool/Main.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <InterfaceDefinition>Main.storyboard</InterfaceDefinition>
+      <LogicalName>Main.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/Debug/ibtool/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

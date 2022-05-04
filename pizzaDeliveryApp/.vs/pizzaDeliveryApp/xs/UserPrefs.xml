@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{5DAA426C-9971-4BC6-AEA4-A865D64D081C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="pizzaDeliveryApp/Main.cs">
+    <Files>
+      <File FileName="pizzaDeliveryApp/CountChoiceViewController.cs" Line="60" Column="51" />
+      <File FileName="pizzaDeliveryApp/Main.cs" Line="10" Column="1" />
+      <File FileName="pizzaDeliveryApp/ProductAddedViewController.cs" />
+      <File FileName="pizzaDeliveryApp/PersonalInfoViewController.cs" />
+      <File FileName="pizzaDeliveryApp/Models/DataBase.cs" />
+      <File FileName="pizzaDeliveryApp/Models/Orders.cs" />
+      <File FileName="pizzaDeliveryApp/Models/Basket.cs" />
+      <File FileName="pizzaDeliveryApp/Models/Products.cs" />
+      <File FileName="pizzaDeliveryApp/CatalogProductsViewController.cs" />
+      <File FileName="pizzaDeliveryApp/OrdersTableViewController.cs" />
+      <File FileName="pizzaDeliveryApp/BasketViewController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="pizzaDeliveryApp" expanded="True">
+            <Node name="pizzaDeliveryApp" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="CountChoiceViewController.cs" expanded="True" />
+              <Node name="Main.cs" selected="True" />
+              <Node name="ProductAddedViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.pizzaDeliveryApp PreferredExecutionTarget="Test1" />
+  <MultiItemStartupConfigurations />
+</Properties>

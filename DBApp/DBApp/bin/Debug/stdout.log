@@ -1,0 +1,119 @@
+Connecting database...
+Sucess!
+Loading start data...
+Loaded!
+Next Data
+Past Data
+Last Data
+Last Data
+First Data
+Next Data
+Past Data
+Past Data
+Past Data
+Next Data
+Next Data
+First Data
+First Data
+First Data
+Next Data
+First Data
+First Data
+Next Data
+Past Data
+Last Data
+Last Data
+Last Data
+Last Data
+Save Data
+Delete Data
+First Data
+Past Data
+Next Data
+Last Data
+Last Data
+Last Data
+Connecting database...
+Sucess!
+Loading start data...
+Loaded!
+Find Data
+Loaded!
+Show All Data
+Loaded!
+Filter Data
+Loaded!
+Filter Data
+Loaded!
+Filter Data
+Loaded!
+Show All Data
+Loaded!
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x1005cecb6 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_dump_native_crash_info
+	0x1005c284e - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_handle_native_crash
+	0x1005ce2df - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : sigabrt_signal_handler
+	0x7fff20433d7d - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x305623cb0 - Unknown
+	0x7fff20343406 - /usr/lib/system/libsystem_c.dylib : abort
+	0x1004df420 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : _ZL12log_callbackPKcS0_S0_iPv
+	0x1007f0af8 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : monoeg_g_logv_nofree
+	0x1007f0ba2 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : monoeg_g_log
+	0x1007e1a5c - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_threads_transition_do_blocking
+	0x1007df261 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_threads_enter_gc_safe_region_unbalanced_with_info
+	0x1007653c8 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_coop_mutex_lock
+	0x100760183 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_thread_execute_interruption
+	0x1007674cd - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_thread_execute_interruption_ptr
+	0x100767993 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : self_interrupt_thread
+	0x600002bb5800 - Unknown
+	0x1004e8250 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : xamarin_invoke_trampoline
+	0x1004eb489 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : xamarin_arch_trampoline
+	0x1004ec666 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : xamarin_x86_64_common_trampoline
+	0x7fff204dcd09 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+	0x7fff205786f8 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : ___CFXRegistrationPost_block_invoke
+	0x7fff20578675 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFXRegistrationPost
+	0x7fff204adfb4 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : _CFXNotificationPost
+	0x7fff21148bb8 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : -[NSNotificationCenter postNotificationName:object:userInfo:]
+	0x7fff22ebe943 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication terminate:]
+	0x7fff230343f6 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication _terminateFromSender:askIfShouldTerminate:saveWindows:]
+	0x7fff230342fe - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : __52-[NSApplication(NSAppleEventHandling) _handleAEQuit]_block_invoke
+	0x7fff23084f28 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : ___NSMainRunLoopPerformBlockInModes_block_invoke
+	0x7fff204e71f2 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__
+	0x7fff204e709c - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopDoBlocks
+	0x7fff204e5d4a - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : __CFRunLoopRun
+	0x7fff204e5310 - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation : CFRunLoopRunSpecific
+	0x7fff2898ca83 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : RunCurrentEventLoopInMode
+	0x7fff2898c6b6 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : ReceiveNextEventCommon
+	0x7fff2898c583 - /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox : _BlockUntilNextEventMatchingListInModeWithFilter
+	0x7fff22c16502 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : _DPSNextEvent
+	0x7fff22c14cd5 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+	0x7fff22c07049 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSApplication run]
+	0x7fff22bdb24c - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x110f7ce47 - Unknown
+	0x110f7caf3 - Unknown
+	0x10bf79c9b - Unknown
+	0x10bf79e11 - Unknown
+	0x1005d9613 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_jit_runtime_invoke
+	0x10070dcc8 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_runtime_invoke_checked
+	0x100715095 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_runtime_exec_main_checked
+	0x1005346fc - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_jit_exec
+	0x100537798 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : mono_main
+	0x1004ed019 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : xamarin_main
+	0x1004ede24 - /Users/ilgamnafikov/Projects/DBApp/DBApp/bin/Debug/DBApp.app/Contents/MacOS/DBApp : main
+	0x7fff20409f3d - /usr/lib/system/libdyld.dylib : start
+	0x1 - Unknown
+
+=================================================================
+	Telemetry Dumper:
+=================================================================

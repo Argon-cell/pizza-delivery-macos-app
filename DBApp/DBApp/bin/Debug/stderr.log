@@ -1,0 +1,1 @@
+2021-12-21 17:11:41.842 DBApp[12559:866924] error: mono_coop_mutex_lock Cannot transition thread 0x20113ce00 from STATE_BLOCKING_SUSPEND_REQUESTED with DO_BLOCKING

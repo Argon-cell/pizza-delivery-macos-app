@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DAA426C-9971-4BC6-AEA4-A865D64D081C}</ProjectGuid>
+    <ProjectTypeGuids>{A3F8F2AB-B479-4A4A-A458-A89E7DC349F1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>pizzaDeliveryApp</RootNamespace>
+    <AssemblyName>pizzaDelivery</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>Xamarin.Mac</TargetFrameworkIdentifier>
+    <MonoMacResourcePrefix>Resources</MonoMacResourcePrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <CodeSigningKey>Mac Developer</CodeSigningKey>
+    <CreatePackage>false</CreatePackage>
+    <EnablePackageSigning>false</EnablePackageSigning>
+    <IncludeMonoRuntime>false</IncludeMonoRuntime>
+    <UseSGen>true</UseSGen>
+    <UseRefCounting>true</UseRefCounting>
+    <I18n>west</I18n>
+    <LinkMode>None</LinkMode>
+    <AOTMode>None</AOTMode>
+    <XamMacArch>x86_64</XamMacArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <CreatePackage>true</CreatePackage>
+    <EnablePackageSigning>false</EnablePackageSigning>
+    <IncludeMonoRuntime>true</IncludeMonoRuntime>
+    <UseSGen>true</UseSGen>
+    <UseRefCounting>true</UseRefCounting>
+    <CodeSignEntitlements>Entitlements.plist</CodeSignEntitlements>
+    <LinkMode>SdkOnly</LinkMode>
+    <AOTMode>None</AOTMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Mac" />
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Abstractions.3.0.0\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.3.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>..\packages\System.Collections.Immutable.1.6.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.6.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\packages\System.Memory.4.5.2\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>..\packages\Microsoft.Extensions.Options.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory">
+      <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.3.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.0.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Relational.2.0.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.SqlServer.2.0.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Remotion.Linq">
+      <HintPath>..\packages\Remotion.Linq.2.1.1\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>..\packages\System.Interactive.Async.3.1.1\lib\netstandard1.3\System.Interactive.Async.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-16%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-32%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
+    <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Песто.imageset\9bd4c76d4c2548c090ac6ae5a1eabae6_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Песто.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Салями.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Салями.imageset\e9624d2bf1ae41598cd6635c0d3ed0f6_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Ветчина и грибы.imageset\26fa2948b6c74113afb9d09a3262fc26_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Ветчина и грибы.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Гавайская.imageset\4749ca7de7e247daa69a685714f06aa3_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Гавайская.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Диабло.imageset\2c7a83e078b44156a7ad774389ed7713_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Диабло.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Ветчина и сыр.imageset\362468e7-e8d3-4fda-ab66-91f4dbd56122.jpg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Ветчина и сыр.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Маргарита.imageset\6b61691078454b3793cdbfbbaa15cf58_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Маргарита.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Додо.imageset\0d5410630b5c4f9eba6e8607423a587a_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Додо.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Карбонара.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Карбонара.imageset\0665a05313b1431588acec0ecfac0888_584x584.jpeg" />
+    <ImageAsset Include="Resources\Assets.xcassets\Мясная.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Мясная.imageset\b10dd95184eb49d39a739d75b8cbfeaf_584x584.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ViewController.cs" />
+    <Compile Include="ViewController.designer.cs">
+      <DependentUpon>ViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Products.cs" />
+    <Compile Include="CatalogProductsViewController.cs" />
+    <Compile Include="CatalogProductsViewController.designer.cs">
+      <DependentUpon>CatalogProductsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CountChoiceViewController.cs" />
+    <Compile Include="CountChoiceViewController.designer.cs">
+      <DependentUpon>CountChoiceViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrdersTableViewController.cs" />
+    <Compile Include="OrdersTableViewController.designer.cs">
+      <DependentUpon>OrdersTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasketViewController.cs" />
+    <Compile Include="BasketViewController.designer.cs">
+      <DependentUpon>BasketViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalInfoViewController.cs" />
+    <Compile Include="PersonalInfoViewController.designer.cs">
+      <DependentUpon>PersonalInfoViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Basket.cs" />
+    <Compile Include="Models\Orders.cs" />
+    <Compile Include="Models\DataBase.cs" />
+    <Compile Include="ProductAddedViewController.cs" />
+    <Compile Include="ProductAddedViewController.designer.cs">
+      <DependentUpon>ProductAddedViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayedViewController.cs" />
+    <Compile Include="PayedViewController.designer.cs">
+      <DependentUpon>PayedViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductCountLessViewController.cs" />
+    <Compile Include="ProductCountLessViewController.designer.cs">
+      <DependentUpon>ProductCountLessViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
+</Project>
